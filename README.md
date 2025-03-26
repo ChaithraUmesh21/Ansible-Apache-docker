@@ -1,8 +1,9 @@
-# Ansible-Apache-docker
-Automated Container deployment and Administration
+# Deploying Apache on AWS EC2 using Ansible and Docker
+This project automates the deployment of an Apache web server on an AWS EC2 instance using Ansible and Docker. The setup allows for remote deployment, ensuring efficient and repeatable provisioning of web infrastructure.
 
-A GitHub repository is like a folder for our project. 
-It's a place where we can store and organize all the files, documents, and code related to our project.
-Think of it as a central hub where we can keep track of changes, collaborate with others, and share our works with the world. we can use it to store anything from simple text documents to complex software projects.
-With a repository, we can easily manage different versions of our project, track who made changes, and collaborate with others by allowing them to contribute to our project.
-Overall, it's a convenient and powerful tool for managing and sharing your work with others.
+# Architecture
+AWS EC2: Cloud-based virtual machine to host the Apache server.
+Ansible: Automates provisioning and deployment of the Apache web server.
+Docker: Containerizes Apache for consistent performance.
+Docker Hub: Stores the Apache Docker image for easy distribution.
+
